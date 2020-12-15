@@ -4,7 +4,7 @@
 #
 Name     : azure-synapse-spark
 Version  : 0.4.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/cb/06/b6f0537773d66371b3b9f75f434043a643fa192ec10ec3efcd875396cc39/azure-synapse-spark-0.4.0.zip
 Source0  : https://files.pythonhosted.org/packages/cb/06/b6f0537773d66371b3b9f75f434043a643fa192ec10ec3efcd875396cc39/azure-synapse-spark-0.4.0.zip
 Summary  : Microsoft Azure Synapse Spark Client Library for Python
