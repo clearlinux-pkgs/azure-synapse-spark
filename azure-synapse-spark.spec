@@ -4,7 +4,7 @@
 #
 Name     : azure-synapse-spark
 Version  : 0.4.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/cb/06/b6f0537773d66371b3b9f75f434043a643fa192ec10ec3efcd875396cc39/azure-synapse-spark-0.4.0.zip
 Source0  : https://files.pythonhosted.org/packages/cb/06/b6f0537773d66371b3b9f75f434043a643fa192ec10ec3efcd875396cc39/azure-synapse-spark-0.4.0.zip
 Summary  : Microsoft Azure Synapse Spark Client Library for Python
@@ -12,10 +12,10 @@ Group    : Development/Tools
 License  : MIT
 Requires: azure-synapse-spark-python = %{version}-%{release}
 Requires: azure-synapse-spark-python3 = %{version}-%{release}
-Requires: azure-common~
+Requires: azure-common
 Requires: azure-core
 Requires: msrest
-BuildRequires : azure-common~
+BuildRequires : azure-common
 BuildRequires : azure-core
 BuildRequires : buildreq-distutils3
 BuildRequires : msrest
@@ -55,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1607992716
+export SOURCE_DATE_EPOCH=1608003064
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
